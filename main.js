@@ -53,6 +53,7 @@ const SITE = {
     { date: "2026.05.21", html: 'Released <em>Visual-Advantage On-Policy Distillation for Vision-Language Models</em> on <a href="https://arxiv.org/abs/2605.21924">arXiv</a>.' },
     { date: "2026.05.08", html: 'Released <em>Rubric-based On-policy Distillation</em> on <a href="https://arxiv.org/abs/2605.07396">arXiv</a>.' },
     { date: "2026.05", html: '<em>R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training</em> is accepted at <strong>ICML 2026</strong>.' },
+    { date: "2026.04", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) reached <strong>#5</strong> on the global alphaXiv trending list.' },
     { date: "2026.04.02", html: 'Released <em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> on <a href="https://arxiv.org/abs/2604.02288">arXiv</a>.' },
     { date: "2026.02.13", html: 'Released <em>R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training</em> on <a href="https://arxiv.org/abs/2602.13103">arXiv</a>.' },
   ],
