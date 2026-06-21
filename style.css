@@ -238,7 +238,7 @@ a:hover { color: var(--accent-hover); }
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--accent);
-  width: 72px;
+  width: 88px;
 }
 .news__text { color: var(--text-soft); font-size: 0.95rem; }
 

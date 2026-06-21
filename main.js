@@ -49,9 +49,12 @@ const SITE = {
   ],
 
   news: [
-    { date: "2026.06", html: 'New preprint: <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> is on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
-    { date: "2026.04", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> released on <a href="https://arxiv.org/abs/2604.02288">arXiv</a>.' },
-    { date: "2026.02", html: '<em>R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training</em> is out on <a href="https://arxiv.org/abs/2602.13103">arXiv</a>.' },
+    { date: "2026.06.14", html: 'Released <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
+    { date: "2026.05.21", html: 'Released <em>Visual-Advantage On-Policy Distillation for Vision-Language Models</em> on <a href="https://arxiv.org/abs/2605.21924">arXiv</a>.' },
+    { date: "2026.05.08", html: 'Released <em>Rubric-based On-policy Distillation</em> on <a href="https://arxiv.org/abs/2605.07396">arXiv</a>.' },
+    { date: "2026.05", html: '<em>R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training</em> is accepted at <strong>ICML 2026</strong>.' },
+    { date: "2026.04.02", html: 'Released <em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> on <a href="https://arxiv.org/abs/2604.02288">arXiv</a>.' },
+    { date: "2026.02.13", html: 'Released <em>R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training</em> on <a href="https://arxiv.org/abs/2602.13103">arXiv</a>.' },
   ],
 
   // 论文：authors 里出现的 meNames 会自动加粗。citations 填 0 则不显示徽章。
@@ -75,7 +78,7 @@ const SITE = {
       authors: "Ruiqi Liu*, Xiaolei Lv*, Gengsheng Li, Ximo Zhu, Zhiheng Wang, Zhengbo Zhang, Junkai Chen, Zhiheng Li, Bo Li, Jun Gao, Shu Wu",
       note: "* Equal contribution",
       venue: "arXiv preprint",
-      status: "Preprint",   // TODO
+      status: "Under review at NeurIPS 2026",
       year: 2026,
       citations: 0,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
@@ -85,7 +88,7 @@ const SITE = {
       authors: "Junfeng Fang*, Zhepei Hong*, Mao Zheng, Mingyang Song, Gengsheng Li, Houcheng Jiang, Dan Zhang, Haiyun Guo, Xiang Wang, Tat-Seng Chua",
       note: "* Equal contribution",
       venue: "arXiv preprint",
-      status: "Preprint",   // TODO
+      status: "Under review at NeurIPS 2026",
       year: 2026,
       citations: 2,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
