@@ -314,6 +314,26 @@ a:hover { color: var(--accent-hover); }
 .pub__link:hover { color: #fff; background: var(--accent); border-color: var(--accent); }
 
 /* ============================================================
+   Education / Experience entries
+   ============================================================ */
+.entry { display: grid; grid-template-columns: 1fr auto; column-gap: 16px; row-gap: 3px; padding: 13px 0; border-bottom: 1px solid var(--border); }
+.entry:last-child { border-bottom: none; }
+.entry__title { grid-column: 1; font-weight: 650; font-size: 1rem; color: var(--text); }
+.entry__period { grid-column: 2; text-align: right; white-space: nowrap; color: var(--text-faint); font-size: 0.84rem; font-variant-numeric: tabular-nums; }
+.entry__sub { grid-column: 1 / -1; color: var(--text-soft); font-size: 0.92rem; }
+.entry__detail { grid-column: 1 / -1; color: var(--text-faint); font-size: 0.85rem; }
+
+/* Honors & Awards */
+.honors { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; }
+.honors__item { display: flex; gap: 14px; align-items: baseline; }
+.honors__year { flex-shrink: 0; width: 46px; color: var(--accent); font-weight: 600; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.honors__text { color: var(--text-soft); font-size: 0.95rem; }
+@media (max-width: 540px) {
+  .entry { grid-template-columns: 1fr; }
+  .entry__period { grid-column: 1; text-align: left; }
+}
+
+/* ============================================================
    Footer
    ============================================================ */
 .footer {
@@ -342,9 +362,9 @@ body.js .reveal.is-visible { opacity: 1; transform: none; }
   .stats { justify-content: center; }
   .hero__name { font-size: 1.9rem; }
 }
-@media (max-width: 480px) {
-  .nav__menu { gap: 14px; }
-  .nav__menu a[href="#news"] { display: none; }
+@media (max-width: 560px) {
+  .nav__menu { gap: 13px; }
+  .nav__menu a[href="#experience"], .nav__menu a[href="#honors"] { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

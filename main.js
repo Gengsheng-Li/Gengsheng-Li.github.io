@@ -65,7 +65,7 @@ const SITE = {
       authors: "Gengsheng Li*, Mao Zheng*, Mingyang Song*, Ruiqi Liu, Tianyu Yang, Jie Sun, Qiyong Zhong, Haiyun Guo, Junfeng Fang, Dan Zhang, Jinqiao Wang",
       note: "* Equal contribution",
       venue: "arXiv preprint",
-      status: "Preprint",   // TODO: 若已投稿/录用，改成如 "Under review" 或 "Accepted at XXX"
+      status: "Under review at EMNLP 2026",
       year: 2026,
       citations: 0,
       links: { Paper: "https://arxiv.org/abs/2606.15912", Code: "https://github.com/Zzzz-166/Guided-OPD" },
@@ -95,7 +95,7 @@ const SITE = {
       authors: "Gengsheng Li*, Tianyu Yang*, Junfeng Fang, Mingyang Song, Mao Zheng, Haiyun Guo, Dan Zhang, Jinqiao Wang, Tat-Seng Chua",
       note: "* Equal contribution",
       venue: "arXiv preprint",
-      status: "Preprint",   // TODO
+      status: "Under review at COLM 2026",
       year: 2026,
       citations: 26,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
@@ -103,8 +103,8 @@ const SITE = {
     {
       title: "R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training",
       authors: "Gengsheng Li, Jinghan He, Shijie Wang, Dan Zhang, Ruiqi Liu, Renrui Zhang, Zijun Yao, Junfeng Fang, Haiyun Guo, Jinqiao Wang",
-      venue: "arXiv preprint",
-      status: "Preprint",   // TODO
+      venue: "ICML",
+      status: "Accepted",
       year: 2026,
       citations: 4,
       links: { Paper: "https://arxiv.org/abs/2602.13103", Code: "https://github.com/Gengsheng-Li/R-Diverse" },
@@ -118,6 +118,51 @@ const SITE = {
       citations: 2,
       links: {},
     },
+  ],
+
+  education: [
+    {
+      school: "Institute of Automation, Chinese Academy of Sciences (CASIA)",
+      degree: "Ph.D. in Pattern Recognition and Intelligent Systems",
+      period: "Aug 2024 – Present",
+      detail: "Admitted via recommendation · GPA 3.85",
+    },
+    {
+      school: "University College Dublin (UCD) & Beijing University of Technology (BJUT)",
+      degree: "B.Eng. in Internet of Things Engineering",
+      period: "Sep 2020 – Jul 2024",
+      detail: "GPA 3.91 · Major Ranking 2 · First Class Honours (UCD)",
+    },
+    {
+      school: "North Carolina State University (NCSU)",
+      degree: "Summer Research Intern, GEARS Program",
+      period: "Jun 2022 – Aug 2022",
+      detail: "Advised by Prof. Huaiyu Dai",
+    },
+  ],
+
+  experience: [
+    {
+      org: "Tencent · Hunyuan, Large Language Model Department",
+      role: "Post-training Algorithm Intern (Tencent Project Up / 青云计划)",
+      period: "Mar 2026 – Present",
+      detail: "On-policy RL and distillation for LLM post-training (SRPO, Guided-OPD).",
+    },
+    {
+      org: "ModelBest (面壁智能), Applied Algorithms Department",
+      role: "MLLM Algorithm Intern",
+      period: "May 2025 – Jul 2025",
+      detail: "Adaptive GRPO for cross-distribution generalization of VLMs in in-cabin passenger recognition.",
+    },
+  ],
+
+  honors: [
+    { year: "2026", text: "Merit Student, CASIA" },
+    { year: "2025", text: "Merit Student, UCAS" },
+    { year: "2024", text: "Beijing Municipality Outstanding Graduate" },
+    { year: "2024", text: "First Class Honours Degree, University College Dublin" },
+    { year: "2024", text: "Honors Bachelor's Degree, Beijing University of Technology" },
+    { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
   lastUpdated: "June 2026",
@@ -275,6 +320,36 @@ function renderPublications() {
     ${groups}`;
 }
 
+function renderEntries(targetId, title, items, titleKey, subKey) {
+  const el = document.getElementById(targetId);
+  if (!el) return;
+  if (!items || !items.length) { el.remove(); return; }
+  el.innerHTML = `
+    <h2 class="section__title reveal">${escapeHtml(title)}</h2>
+    ${items.map((it) => `<div class="entry reveal">
+        <div class="entry__title">${escapeHtml(it[titleKey])}</div>
+        <div class="entry__period">${escapeHtml(it.period)}</div>
+        <div class="entry__sub">${escapeHtml(it[subKey])}</div>
+        ${it.detail ? `<div class="entry__detail">${escapeHtml(it.detail)}</div>` : ""}
+      </div>`).join("")}`;
+}
+
+function renderEducation() { renderEntries("education", "Education", SITE.education, "school", "degree"); }
+
+function renderExperience() { renderEntries("experience", "Experience", SITE.experience, "org", "role"); }
+
+function renderHonors() {
+  const s = SITE;
+  const el = document.getElementById("honors");
+  if (!el) return;
+  if (!s.honors || !s.honors.length) { el.remove(); return; }
+  el.innerHTML = `
+    <h2 class="section__title reveal">Honors &amp; Awards</h2>
+    <ul class="honors reveal">
+      ${s.honors.map((h) => `<li class="honors__item"><span class="honors__year">${escapeHtml(h.year)}</span><span class="honors__text">${escapeHtml(h.text)}</span></li>`).join("")}
+    </ul>`;
+}
+
 function renderFooter() {
   const s = SITE;
   const scholar = s.links.scholar
@@ -321,7 +396,10 @@ document.addEventListener("DOMContentLoaded", () => {
   renderHero();
   renderAbout();
   renderNews();
+  renderEducation();
+  renderExperience();
   renderPublications();
+  renderHonors();
   renderFooter();
   initThemeToggle();
   initReveal();
