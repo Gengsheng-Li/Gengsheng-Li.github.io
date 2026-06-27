@@ -38,7 +38,7 @@ const SITE = {
     "and the University of Chinese Academy of Sciences (UCAS). My research centers on reinforcement " +
     "learning and post-training for large language models (LLMs) and vision-language models (VLMs), " +
     "with a focus on policy optimization, on-policy distillation, and self-play / self-improvement. " +
-    "I am currently an intern at Tencent Hunyuan, working on on-policy distillation for LLM post-training.",
+    "I am currently an intern at Tencent Hunyuan, working on on-policy (self-) distillation for LLM post-training.",
 
   interests: [
     "Large Language Models",
