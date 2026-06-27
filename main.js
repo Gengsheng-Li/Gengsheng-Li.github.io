@@ -12,7 +12,7 @@ const SITE = {
   affiliationHtml:
     'Institute of Automation, Chinese Academy of Sciences',
   tagline:
-    "Reinforcement learning and post-training for large language and vision-language models.",
+    "Post-training of large language and vision-language models, with a focus on reinforcement learning and on-policy distillation.",
   avatar: "",                       // 例如 "assets/photo.jpg"；留空显示 "GL" 首字母头像
 
   // 自己名字的所有写法，用于在作者列表里自动加粗
@@ -35,18 +35,18 @@ const SITE = {
 
   bio:
     "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
-    "and the University of Chinese Academy of Sciences (UCAS). My research centers on reinforcement " +
-    "learning and post-training for large language models (LLMs) and vision-language models (VLMs), " +
-    "with a focus on policy optimization, on-policy distillation, and self-play / self-improvement. " +
+    "and the University of Chinese Academy of Sciences (UCAS). My research centers on post-training " +
+    "for large language models (LLMs) and vision-language models (VLMs), with a focus on reinforcement " +
+    "learning (policy optimization), on-policy distillation, and self-play / self-improvement. " +
     "I am currently an intern at Tencent Hunyuan, working on on-policy (self-) distillation for LLM post-training.",
 
   interests: [
     "Large Language Models",
+    "Vision-Language Models",
+    "Post-training",
     "Reinforcement Learning",
-    "Post-training & Policy Optimization",
     "On-Policy Distillation",
     "Self-Play & Self-Improvement",
-    "Vision-Language Models",
   ],
 
   news: [
