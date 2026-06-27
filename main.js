@@ -37,7 +37,8 @@ const SITE = {
     "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
     "and the University of Chinese Academy of Sciences (UCAS). My research centers on reinforcement " +
     "learning and post-training for large language models (LLMs) and vision-language models (VLMs), " +
-    "with a focus on policy optimization, on-policy distillation, and self-play / self-improvement.",
+    "with a focus on policy optimization, on-policy distillation, and self-play / self-improvement. " +
+    "I am currently an intern at Tencent Hunyuan, working on on-policy distillation for LLM post-training.",
 
   interests: [
     "Large Language Models",
@@ -55,6 +56,7 @@ const SITE = {
     { date: "2026.05", html: '<em>R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training</em> is accepted at <strong>ICML 2026</strong>.' },
     { date: "2026.04", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) reached <strong>#5</strong> on the global alphaXiv trending list.' },
     { date: "2026.04.02", html: 'Released <em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> on <a href="https://arxiv.org/abs/2604.02288">arXiv</a>.' },
+    { date: "2026.03", html: 'Started my internship at <strong>Tencent Hunyuan</strong> (Tencent Project Up / 青云计划).' },
     { date: "2026.02.13", html: 'Released <em>R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training</em> on <a href="https://arxiv.org/abs/2602.13103">arXiv</a>.' },
   ],
 
@@ -106,7 +108,8 @@ const SITE = {
     },
     {
       title: "R-Diverse: Mitigating Diversity Illusion in Self-Play LLM Training",
-      authors: "Gengsheng Li, Jinghan He, Shijie Wang, Dan Zhang, Ruiqi Liu, Renrui Zhang, Zijun Yao, Junfeng Fang, Haiyun Guo, Jinqiao Wang",
+      authors: "Gengsheng Li*, Jinghan He*, Shijie Wang, Dan Zhang, Ruiqi Liu, Renrui Zhang, Zijun Yao, Junfeng Fang, Haiyun Guo, Jinqiao Wang",
+      note: "* Equal contribution",
       venue: "ICML",
       status: "Accepted",
       year: 2026,
@@ -115,7 +118,7 @@ const SITE = {
     },
     {
       title: "Optimizing Federated Learning on Non-IID Data with Clustering and Model Sharing",
-      authors: "Q Zhang, Y Wang, G Li, B Cardiff, P Ranaweera",
+      authors: "Qufei Zhang, Yunshuang Wang, Gengsheng Li, Barry Cardiff, Pasika Ranaweera",
       venue: "EuCNC & 6G Summit",
       status: "Published",
       year: 2025,
