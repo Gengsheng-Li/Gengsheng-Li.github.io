@@ -118,7 +118,8 @@ const SITE = {
     },
     {
       title: "Optimizing Federated Learning on Non-IID Data with Clustering and Model Sharing",
-      authors: "Qufei Zhang, Yunshuang Wang, Gengsheng Li, Barry Cardiff, Pasika Ranaweera",
+      authors: "Qufei Zhang*, Yunshuang Wang*, Gengsheng Li, Barry Cardiff, Pasika Ranaweera",
+      note: "* Equal contribution",
       venue: "EuCNC & 6G Summit",
       status: "Published",
       year: 2025,
