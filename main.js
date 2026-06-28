@@ -19,7 +19,7 @@ const SITE = {
   meNames: ["Gengsheng Li", "G Li"],
 
   links: {
-    email: "ligengsheng2024@ia.ac.cn",
+    email: "ligengchengucd@163.com",
     scholar: "https://scholar.google.com/citations?user=uvBL9UMAAAAJ",
     github: "https://github.com/Gengsheng-Li",  // 从 R-Diverse 仓库推断，请确认是否为你本人账号
     arxiv: "",                        // 例如 "https://arxiv.org/a/li_g_1"
