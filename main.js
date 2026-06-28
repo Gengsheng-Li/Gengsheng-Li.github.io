@@ -133,7 +133,10 @@ const SITE = {
       school: "Institute of Automation, Chinese Academy of Sciences (CASIA)",
       degree: "Ph.D. in Pattern Recognition and Intelligent Systems",
       period: "Aug 2024 – Present",
-      detail: "Admitted via recommendation · GPA 3.85",
+      detail: [
+        "Admitted via recommendation · GPA 3.85",
+        "Advised by Prof. Jinqiao Wang, Prof. Haiyun Guo, and Prof. Shiming Xiang",
+      ],
     },
     {
       school: "University College Dublin (UCD) & Beijing University of Technology (BJUT)",
@@ -338,7 +341,7 @@ function renderEntries(targetId, title, items, titleKey, subKey) {
         <div class="entry__title">${escapeHtml(it[titleKey])}</div>
         <div class="entry__period">${escapeHtml(it.period)}</div>
         <div class="entry__sub">${escapeHtml(it[subKey])}</div>
-        ${it.detail ? `<div class="entry__detail">${escapeHtml(it.detail)}</div>` : ""}
+        ${(it.detail ? (Array.isArray(it.detail) ? it.detail : [it.detail]) : []).map((d) => `<div class="entry__detail">${escapeHtml(d)}</div>`).join("")}
       </div>`).join("")}`;
 }
 
