@@ -37,7 +37,7 @@ const SITE = {
     "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
     "and the University of Chinese Academy of Sciences (UCAS). My research centers on post-training " +
     "for large language models (LLMs) and vision-language models (VLMs), with a focus on reinforcement " +
-    "learning (policy optimization), on-policy distillation, and self-play / self-improvement. " +
+    "learning, on-policy (self-) distillation, and self-evolution. " +
     "I am currently an intern at Tencent Hunyuan, working on on-policy (self-) distillation for LLM post-training.",
 
   interests: [
@@ -46,7 +46,7 @@ const SITE = {
     "Post-training",
     "Reinforcement Learning",
     "On-Policy Distillation",
-    "Self-Play & Self-Improvement",
+    "Self-Evolution",
   ],
 
   news: [
