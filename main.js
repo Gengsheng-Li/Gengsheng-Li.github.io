@@ -139,7 +139,7 @@ const SITE = {
       school: "University College Dublin (UCD) & Beijing University of Technology (BJUT)",
       degree: "B.Eng. in Internet of Things Engineering",
       period: "Sep 2020 – Jul 2024",
-      detail: "GPA 3.91 · Major Ranking 2 · First Class Honours (UCD)",
+      detail: "GPA 3.91 · First Class Honours (UCD)",
     },
     {
       school: "North Carolina State University (NCSU)",
