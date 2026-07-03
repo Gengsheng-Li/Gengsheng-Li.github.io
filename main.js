@@ -31,7 +31,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 36, hIndex: 3, i10Index: 1 },
+  scholarStats: { citations: 39, hIndex: 3, i10Index: 1 },
 
   bio:
     "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
@@ -84,7 +84,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 0,
+      citations: 1,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -94,7 +94,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 3,
+      citations: 4,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
@@ -104,7 +104,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at COLM 2026",
       year: 2026,
-      citations: 27,
+      citations: 28,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
