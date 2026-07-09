@@ -31,7 +31,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 39, hIndex: 3, i10Index: 1 },
+  scholarStats: { citations: 40, hIndex: 3, i10Index: 1 },
 
   bio:
     "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
@@ -50,6 +50,7 @@ const SITE = {
   ],
 
   news: [
+    { date: "2026.07.09", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) is accepted at <strong>COLM 2026</strong>.' },
     { date: "2026.06.14", html: 'Released <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
     { date: "2026.05.21", html: 'Released <em>Visual-Advantage On-Policy Distillation for Vision-Language Models</em> on <a href="https://arxiv.org/abs/2605.21924">arXiv</a>.' },
     { date: "2026.05", html: '<em>Rubric-based On-policy Distillation</em> (ROPD) reached <strong>#2</strong> on the global alphaXiv trending list.' },
@@ -94,15 +95,15 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 4,
+      citations: 5,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
       title: "Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing",
       authors: "Gengsheng Li*, Tianyu Yang*, Junfeng Fang, Mingyang Song, Mao Zheng, Haiyun Guo, Dan Zhang, Jinqiao Wang, Tat-Seng Chua",
       note: "* Equal contribution",
-      venue: "arXiv preprint",
-      status: "Under review at COLM 2026",
+      venue: "COLM",
+      status: "Accepted",
       year: 2026,
       citations: 28,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
@@ -178,7 +179,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "June 2026",
+  lastUpdated: "July 2026",
 };
 
 /* ============================================================================
