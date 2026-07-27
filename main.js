@@ -31,7 +31,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 45, hIndex: 3, i10Index: 1 },
+  scholarStats: { citations: 53, hIndex: 4, i10Index: 1 },
 
   bio:
     "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
@@ -85,7 +85,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 1,
+      citations: 5,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -105,7 +105,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 30,
+      citations: 34,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
