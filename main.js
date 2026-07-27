@@ -71,7 +71,8 @@ const SITE = {
   publications: [
     {
       title: "EasyOPD: An Easy-to-use On-Policy Distillation Framework for Large Language Models",
-      authors: "Jie Sun, Mao Zheng, Mingyang Song, Qiyong Zhong, Gengsheng Li, Zhepei Hong, Chang Wu, Pengfei Liu, Junfeng Fang, Xiang Wang",
+      authors: "Jie Sun*, Mao Zheng*, Mingyang Song*, Qiyong Zhong*, Gengsheng Li*, Zhepei Hong, Chang Wu, Pengfei Liu, Junfeng Fang, Xiang Wang",
+      note: "* Equal contribution",
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
