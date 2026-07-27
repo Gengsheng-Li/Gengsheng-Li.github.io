@@ -70,6 +70,15 @@ const SITE = {
   // 含 accept/publish 显示绿色，含 review/submit 显示橙色，其余灰色。
   publications: [
     {
+      title: "EasyOPD: An Easy-to-use On-Policy Distillation Framework for Large Language Models",
+      authors: "Jie Sun, Mao Zheng, Mingyang Song, Qiyong Zhong, Gengsheng Li, Zhepei Hong, Chang Wu, Pengfei Liu, Junfeng Fang, Xiang Wang",
+      venue: "arXiv preprint",
+      status: "Preprint",
+      year: 2026,
+      citations: 0,
+      links: { Paper: "https://arxiv.org/abs/2607.11012", Code: "https://github.com/lds-ustc/EasyOPD" },
+    },
+    {
       title: "On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents",
       authors: "Gengsheng Li*, Mao Zheng*, Mingyang Song*, Ruiqi Liu, Tianyu Yang, Jie Sun, Qiyong Zhong, Haiyun Guo, Junfeng Fang, Dan Zhang, Jinqiao Wang",
       note: "* Equal contribution",
