@@ -31,7 +31,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 53, hIndex: 4, i10Index: 1 },
+  scholarStats: { citations: 67, hIndex: 5, i10Index: 1 },
 
   bio:
     "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
@@ -86,7 +86,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at EMNLP 2026",
       year: 2026,
-      citations: 1,
+      citations: 5,
       links: { Paper: "https://arxiv.org/abs/2606.15912", Code: "https://github.com/Zzzz-166/Guided-OPD" },
     },
     {
@@ -96,7 +96,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 5,
+      citations: 7,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -106,7 +106,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 7,
+      citations: 9,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
@@ -116,7 +116,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 34,
+      citations: 39,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
@@ -126,7 +126,7 @@ const SITE = {
       venue: "ICML",
       status: "Accepted",
       year: 2026,
-      citations: 4,
+      citations: 5,
       links: { Paper: "https://arxiv.org/abs/2602.13103", Code: "https://github.com/Gengsheng-Li/R-Diverse" },
     },
     {
@@ -190,7 +190,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "July 2026",
+  lastUpdated: "August 2026",
 };
 
 /* ============================================================================
