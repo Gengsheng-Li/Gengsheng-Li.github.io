@@ -147,8 +147,7 @@ const SITE = {
       period: "Aug 2024 – Present",
       detail: [
         "Admitted via recommendation · GPA 3.85",
-        "Advised by Prof. Jinqiao Wang, Prof. Haiyun Guo, and Prof. Shiming Xiang",
-        "Co-advised by Dr. Junfeng Fang and Dr. Dan Zhang (Research Fellows, NUS)",
+        "Advised by Prof. Haiyun Guo and Prof. Jinqiao Wang",
       ],
     },
     {
