@@ -34,8 +34,7 @@ const SITE = {
   scholarStats: { citations: 70, hIndex: 5, i10Index: 1 },
 
   bio:
-    "I am a Ph.D. student at the Institute of Automation, Chinese Academy of Sciences (CASIA), " +
-    "and the University of Chinese Academy of Sciences (UCAS). My research centers on post-training " +
+    "My research centers on post-training " +
     "for large language models (LLMs) and vision-language models (VLMs), with a focus on reinforcement " +
     "learning, on-policy (self-) distillation, and self-evolution. " +
     "I am currently an intern at Tencent Hunyuan, working on on-policy (self-) distillation for LLM post-training.",
@@ -144,7 +143,7 @@ const SITE = {
   education: [
     {
       school: "Institute of Automation, Chinese Academy of Sciences (CASIA)",
-      degree: "Ph.D. in Pattern Recognition and Intelligent Systems",
+      degree: "Artificial Intelligence",
       period: "Aug 2024 – Present",
       detail: [
         "Admitted via recommendation · GPA 3.85",
@@ -154,7 +153,7 @@ const SITE = {
     },
     {
       school: "University College Dublin (UCD) & Beijing University of Technology (BJUT)",
-      degree: "B.Eng. in Internet of Things Engineering",
+      degree: "Internet of Things Engineering",
       period: "Sep 2020 – Jul 2024",
       detail: "GPA 3.91 · First Class Honours (UCD)",
     },
