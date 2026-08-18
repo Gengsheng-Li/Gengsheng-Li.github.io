@@ -10,7 +10,7 @@ const SITE = {
   nameCn: "",                       // 可填中文名，如 "李庚晟"；留空则不显示
   role: "",                         // TODO: 按实际身份修改（如 Master's Student / Researcher）
   affiliationHtml:
-    'Institute of Automation, Chinese Academy of Sciences',
+    'Institute of Automation, Chinese Academy of Sciences | Institute of Automation, Chinese Academy of Sciences',
   tagline:
     "Post-training of large language and vision-language models, with a focus on reinforcement learning and on-policy distillation.",
   avatar: "",                       // 例如 "assets/photo.jpg"；留空显示 "GL" 首字母头像
@@ -131,7 +131,7 @@ const SITE = {
 
   education: [
     {
-      school: "Institute of Automation, Chinese Academy of Sciences (CASIA)",
+      school: "Institute of Automation, Chinese Academy of Sciences | Institute of Automation, Chinese Academy of Sciences (CASIA)",
       degree: "Artificial Intelligence",
       period: "Aug 2024 – Present",
       detail: [
