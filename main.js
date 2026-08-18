@@ -131,7 +131,7 @@ const SITE = {
 
   education: [
     {
-      school: "Institute of Automation, Chinese Academy of Sciences | University of Chinese Academy of Sciences",
+      school: "Institute of Automation, Chinese Academy of Sciences (CASIA) | University of Chinese Academy of Sciences (UCAS)",
       degree: "Artificial Intelligence",
       period: "Aug 2024 – Present",
       detail: [
