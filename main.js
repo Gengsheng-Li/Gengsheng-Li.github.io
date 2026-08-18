@@ -8,7 +8,7 @@
 const SITE = {
   name: "Gengsheng Li",
   nameCn: "",                       // 可填中文名，如 "李庚晟"；留空则不显示
-  role: "Ph.D. Student",            // TODO: 按实际身份修改（如 Master's Student / Researcher）
+  role: "",                         // TODO: 按实际身份修改（如 Master's Student / Researcher）
   affiliationHtml:
     'Institute of Automation, Chinese Academy of Sciences',
   tagline:
