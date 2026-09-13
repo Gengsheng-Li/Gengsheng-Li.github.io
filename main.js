@@ -12,7 +12,7 @@ const SITE = {
   affiliationHtml:
     'Institute of Automation, Chinese Academy of Sciences | University of Chinese Academy of Sciences',
   tagline:
-    "Post-training of large language and vision-language models, with a focus on reinforcement learning and on-policy distillation.",
+    "Post-training of large language and vision-language models, with a focus on on-policy distillation and self-evolution.",
   avatar: "",                       // 例如 "assets/photo.jpg"；留空显示 "GL" 首字母头像
 
   // 自己名字的所有写法，用于在作者列表里自动加粗
@@ -31,24 +31,25 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 70, hIndex: 5, i10Index: 1 },
+  scholarStats: { citations: 85, hIndex: 5, i10Index: 3 },
 
   bio:
     "My research centers on post-training " +
-    "for large language models (LLMs) and vision-language models (VLMs), with a focus on reinforcement " +
-    "learning, on-policy (self-) distillation, and self-evolution. " +
-    "I am currently an intern at Tencent Hunyuan, working on on-policy (self-) distillation for LLM post-training.",
+    "for large language models (LLMs) and vision-language models (VLMs), with a focus on " +
+    "on-policy distillation, self-evolution, and reinforcement learning. " +
+    "I am currently an intern at Tencent Hunyuan, working on on-policy (self-)distillation for LLM post-training.",
 
   interests: [
     "Large Language Models",
     "Vision-Language Models",
     "Post-training",
-    "Reinforcement Learning",
     "On-Policy Distillation",
     "Self-Evolution",
+    "Reinforcement Learning",
   ],
 
   news: [
+    { date: "2026.08", html: '<em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> is accepted at <strong>EMNLP 2026</strong>.' },
     { date: "2026.07", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) is accepted at <strong>COLM 2026</strong>.' },
     { date: "2026.06.14", html: 'Released <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
     { date: "2026.05.21", html: 'Released <em>Visual-Advantage On-Policy Distillation for Vision-Language Models</em> on <a href="https://arxiv.org/abs/2605.21924">arXiv</a>.' },
@@ -71,10 +72,10 @@ const SITE = {
       title: "On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents",
       authors: "Gengsheng Li*, Mao Zheng*, Mingyang Song*, Ruiqi Liu, Tianyu Yang, Jie Sun, Qiyong Zhong, Haiyun Guo, Junfeng Fang, Dan Zhang, Jinqiao Wang",
       note: "* Equal contribution",
-      venue: "arXiv preprint",
-      status: "Under review at EMNLP 2026",
+      venue: "EMNLP",
+      status: "Accepted",
       year: 2026,
-      citations: 5,
+      citations: 8,
       links: { Paper: "https://arxiv.org/abs/2606.15912", Code: "https://github.com/Zzzz-166/Guided-OPD" },
     },
     {
@@ -84,7 +85,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 9,
+      citations: 13,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -94,7 +95,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 9,
+      citations: 10,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
@@ -104,7 +105,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 39,
+      citations: 44,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
@@ -114,7 +115,7 @@ const SITE = {
       venue: "ICML",
       status: "Accepted",
       year: 2026,
-      citations: 5,
+      citations: 7,
       links: { Paper: "https://arxiv.org/abs/2602.13103", Code: "https://github.com/Gengsheng-Li/R-Diverse" },
     },
     {
@@ -155,7 +156,7 @@ const SITE = {
 
   experience: [
     {
-      org: "Tencent · Hunyuan, Large Language Model Department",
+      org: "Tencent · Hunyuan, Foundation Model Department",
       role: "Post-training Algorithm Intern (Tencent Project Up / 青云计划)",
       period: "Mar 2026 – Present",
       detail: "On-policy RL and distillation for LLM post-training (SRPO, Guided-OPD).",
@@ -177,7 +178,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "August 2026",
+  lastUpdated: "September 2026",
 };
 
 /* ============================================================================
