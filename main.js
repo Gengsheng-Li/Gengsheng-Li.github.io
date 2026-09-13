@@ -37,7 +37,8 @@ const SITE = {
     "My research centers on post-training " +
     "for large language models (LLMs) and vision-language models (VLMs), with a focus on " +
     "on-policy distillation, self-evolution, and reinforcement learning. " +
-    "I am currently an intern at Tencent Hunyuan, working on on-policy (self-)distillation for LLM post-training.",
+    "I am currently an intern at Tencent Hunyuan, working on on-policy (self-)distillation for LLM post-training. " +
+    "Next, I plan to explore efficient merging of multiple expert models’ capabilities and recursive self-improvement.",
 
   interests: [
     "Large Language Models",
