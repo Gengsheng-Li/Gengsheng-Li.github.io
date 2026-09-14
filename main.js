@@ -51,6 +51,7 @@ const SITE = {
   ],
 
   news: [
+    { date: "2026.09.12", html: 'Released <em>Data-free On-policy Distillation</em> on arXiv.' },
     { date: "2026.08", html: '<em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> is accepted at <strong>EMNLP 2026</strong>.' },
     { date: "2026.07", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) is accepted at <strong>COLM 2026</strong>.' },
     { date: "2026.06.14", html: 'Released <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
@@ -70,6 +71,16 @@ const SITE = {
   //   "Preprint" / "Under review" / "Submitted to NeurIPS 2026" / "Accepted at ICLR 2027" / "Published"
   // 含 accept/publish 显示绿色，含 review/submit 显示橙色，其余灰色。
   publications: [
+    {
+      title: "Data-free On-policy Distillation",
+      authors: "Gengsheng Li*, Mao Zheng*, Mingyang Song*, Jie Sun, Zeyuan Liu, Ruiqi Liu, Qiyong Zhong, Haiyun Guo, Junfeng Fang, Jinqiao Wang",
+      note: "* Equal contribution",
+      venue: "arXiv preprint",
+      status: "Preprint",
+      year: 2026,
+      citations: 0,
+      links: {},
+    },
     {
       title: "On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents",
       authors: "Gengsheng Li*, Mao Zheng*, Mingyang Song*, Ruiqi Liu, Tianyu Yang, Jie Sun, Qiyong Zhong, Haiyun Guo, Junfeng Fang, Dan Zhang, Jinqiao Wang",
