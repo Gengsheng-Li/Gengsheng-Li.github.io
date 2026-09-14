@@ -41,12 +41,15 @@ const SITE = {
     "Next, I plan to explore efficient merging of multiple expert models’ capabilities and recursive self-improvement.",
 
   interests: [
+    "On-Policy Distillation",
+    "On-Policy Self-Distillation",
+    "Multi-Teacher OPD",
+    "Self-Evolution",
+    "Recursive Self-Improvement",
+    "Reinforcement Learning",
+    "Post-training",
     "Large Language Models",
     "Vision-Language Models",
-    "Post-training",
-    "On-Policy Distillation",
-    "Self-Evolution",
-    "Reinforcement Learning",
   ],
 
   news: [
