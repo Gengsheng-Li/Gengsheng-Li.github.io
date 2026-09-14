@@ -124,7 +124,7 @@ const SITE = {
       authors: "Qufei Zhang*, Yunshuang Wang*, Gengsheng Li, Barry Cardiff, Pasika Ranaweera",
       note: "* Equal contribution",
       venue: "EuCNC & 6G Summit",
-      status: "Published",
+      status: "Accepted",
       year: 2025,
       citations: 3,
       links: {},
