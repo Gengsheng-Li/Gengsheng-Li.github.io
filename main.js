@@ -48,8 +48,6 @@ const SITE = {
     "Recursive Self-Improvement",
     "Reinforcement Learning",
     "Post-training",
-    "Large Language Models",
-    "Vision-Language Models",
   ],
 
   news: [
