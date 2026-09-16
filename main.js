@@ -51,7 +51,7 @@ const SITE = {
   ],
 
   news: [
-    { date: "2026.09.12", html: 'Released <em>Data-free On-policy Distillation</em> on arXiv.' },
+    { date: "2026.09.12", html: 'Released <em>Data-free On-policy Distillation</em> on <a href="https://arxiv.org/abs/2609.14193">arXiv</a>.' },
     { date: "2026.08", html: '<em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> is accepted at <strong>EMNLP 2026</strong>.' },
     { date: "2026.07", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) is accepted at <strong>COLM 2026</strong>.' },
     { date: "2026.06.14", html: 'Released <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
@@ -79,7 +79,7 @@ const SITE = {
       status: "Preprint",
       year: 2026,
       citations: 0,
-      links: {},
+      links: { Paper: "https://arxiv.org/abs/2609.14193" },
     },
     {
       title: "On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents",
