@@ -51,6 +51,7 @@ const SITE = {
   ],
 
   news: [
+    { date: "2026.09", html: '<em>Visual-Advantage On-Policy Distillation for Vision-Language Models</em> (VA-OPD) is accepted at <strong>NeurIPS 2026</strong>.' },
     { date: "2026.09.20", html: 'Released <em>Distill What You Trust: Reliability-Aware Multi-Teacher On-Policy Distillation</em> on <a href="https://arxiv.org/abs/2609.23697">arXiv</a>.' },
     { date: "2026.09.12", html: 'Released <em>Data-Free On-Policy Distillation: How Far Can We Go Without External Data?</em> on <a href="https://arxiv.org/abs/2609.14193">arXiv</a>.' },
     { date: "2026.08.06", html: 'Released <em>DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models</em> on <a href="https://arxiv.org/abs/2608.06243">arXiv</a>.' },
