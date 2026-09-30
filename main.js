@@ -31,7 +31,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 85, hIndex: 5, i10Index: 3 },
+  scholarStats: { citations: 89, hIndex: 5, i10Index: 3 },
 
   bio:
     "My research centers on post-training " +
@@ -51,8 +51,11 @@ const SITE = {
   ],
 
   news: [
-    { date: "2026.09.12", html: 'Released <em>Data-free On-policy Distillation</em> on <a href="https://arxiv.org/abs/2609.14193">arXiv</a>.' },
+    { date: "2026.09.20", html: 'Released <em>Distill What You Trust: Reliability-Aware Multi-Teacher On-Policy Distillation</em> on <a href="https://arxiv.org/abs/2609.23697">arXiv</a>.' },
+    { date: "2026.09.12", html: 'Released <em>Data-Free On-Policy Distillation: How Far Can We Go Without External Data?</em> on <a href="https://arxiv.org/abs/2609.14193">arXiv</a>.' },
+    { date: "2026.08", html: 'Released <em>DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models</em> on <a href="https://arxiv.org/abs/2608.06243">arXiv</a>.' },
     { date: "2026.08", html: '<em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> is accepted at <strong>EMNLP 2026</strong>.' },
+    { date: "2026.07.13", html: 'Released <em>EasyOPD: An Easy-to-use On-Policy Distillation Framework for Large Language Models</em> on <a href="https://arxiv.org/abs/2607.11012">arXiv</a>.' },
     { date: "2026.07", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) is accepted at <strong>COLM 2026</strong>.' },
     { date: "2026.06.14", html: 'Released <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
     { date: "2026.05.21", html: 'Released <em>Visual-Advantage On-Policy Distillation for Vision-Language Models</em> on <a href="https://arxiv.org/abs/2605.21924">arXiv</a>.' },
@@ -72,7 +75,17 @@ const SITE = {
   // 含 accept/publish 显示绿色，含 review/submit 显示橙色，其余灰色。
   publications: [
     {
-      title: "Data-free On-policy Distillation",
+      title: "Distill What You Trust: Reliability-Aware Multi-Teacher On-Policy Distillation",
+      authors: "Jie Sun*, Mao Zheng*, Mingyang Song*, Zeyuan Liu, Gengsheng Li, Houcheng Jiang, Yilin Cheng, Bichuan Feng, Yuchen Cai, Junfeng Fang, Xiang Wang",
+      note: "* Equal contribution",
+      venue: "arXiv preprint",
+      status: "Preprint",
+      year: 2026,
+      citations: 0,
+      links: { Paper: "https://arxiv.org/abs/2609.23697" },
+    },
+    {
+      title: "Data-Free On-Policy Distillation: How Far Can We Go Without External Data?",
       authors: "Gengsheng Li*, Mao Zheng*, Mingyang Song*, Jie Sun, Zeyuan Liu, Ruiqi Liu, Qiyong Zhong, Haiyun Guo, Junfeng Fang, Jinqiao Wang",
       note: "* Equal contribution",
       venue: "arXiv preprint",
@@ -80,6 +93,26 @@ const SITE = {
       year: 2026,
       citations: 0,
       links: { Paper: "https://arxiv.org/abs/2609.14193" },
+    },
+    {
+      title: "DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models",
+      authors: "ZhiYan Hou*, Xinyu Tang*, Hongyan An, Jianjin Zhang, Weizhen Wang, Yunyun Han, Gengsheng Li, Xiangzhao Hao, Haiyun Guo, Wenbin Hu, Jinqiao Wang, Yafeng Deng",
+      note: "* Equal contribution",
+      venue: "arXiv preprint",
+      status: "Preprint",
+      year: 2026,
+      citations: 2,
+      links: { Paper: "https://arxiv.org/abs/2608.06243", Code: "https://github.com/DBtxy/DASH-OPSD" },
+    },
+    {
+      title: "EasyOPD: An Easy-to-use On-Policy Distillation Framework for Large Language Models",
+      authors: "Jie Sun*, Mao Zheng*, Mingyang Song*, Qiyong Zhong*, Gengsheng Li*, Zhepei Hong, Chang Wu, Pengfei Liu, Junfeng Fang, Xiang Wang",
+      note: "* Equal contribution",
+      venue: "arXiv preprint",
+      status: "Preprint",
+      year: 2026,
+      citations: 0,
+      links: { Paper: "https://arxiv.org/abs/2607.11012", Code: "https://github.com/lds-ustc/EasyOPD" },
     },
     {
       title: "On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents",
@@ -108,7 +141,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Under review at NeurIPS 2026",
       year: 2026,
-      citations: 10,
+      citations: 11,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
@@ -118,7 +151,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 44,
+      citations: 45,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
