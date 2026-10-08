@@ -31,7 +31,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 89, hIndex: 5, i10Index: 3 },
+  scholarStats: { citations: 127, hIndex: 5, i10Index: 4 },
 
   bio:
     "My research centers on post-training " +
@@ -82,7 +82,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 0,
+      citations: 3,
       links: { Paper: "https://arxiv.org/abs/2609.23697" },
     },
     {
@@ -102,7 +102,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 2,
+      citations: 5,
       links: { Paper: "https://arxiv.org/abs/2608.06243", Code: "https://github.com/DBtxy/DASH-OPSD" },
     },
     {
@@ -122,7 +122,7 @@ const SITE = {
       venue: "EMNLP",
       status: "Accepted",
       year: 2026,
-      citations: 8,
+      citations: 18,
       links: { Paper: "https://arxiv.org/abs/2606.15912", Code: "https://github.com/Zzzz-166/Guided-OPD" },
     },
     {
@@ -132,7 +132,7 @@ const SITE = {
       venue: "NeurIPS",
       status: "Accepted",
       year: 2026,
-      citations: 13,
+      citations: 19,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -142,7 +142,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 11,
+      citations: 16,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
@@ -152,7 +152,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 45,
+      citations: 55,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
@@ -162,7 +162,7 @@ const SITE = {
       venue: "ICML",
       status: "Accepted",
       year: 2026,
-      citations: 7,
+      citations: 8,
       links: { Paper: "https://arxiv.org/abs/2602.13103", Code: "https://github.com/Gengsheng-Li/R-Diverse" },
     },
     {
@@ -225,7 +225,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "September 2026",
+  lastUpdated: "2026-10-08",
 };
 
 /* ============================================================================
