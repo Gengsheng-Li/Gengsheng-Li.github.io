@@ -30,7 +30,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 136, hIndex: 5, i10Index: 4 },
+  scholarStats: { citations: 142, hIndex: 6, i10Index: 4 },
 
   bio:
     "My research centers on post-training " +
@@ -91,7 +91,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 0,
+      citations: 1,
       links: { Paper: "https://arxiv.org/abs/2609.14193" },
     },
     {
@@ -101,7 +101,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 5,
+      citations: 6,
       links: { Paper: "https://arxiv.org/abs/2608.06243", Code: "https://github.com/DBtxy/DASH-OPSD" },
     },
     {
@@ -121,7 +121,7 @@ const SITE = {
       venue: "EMNLP",
       status: "Accepted",
       year: 2026,
-      citations: 21,
+      citations: 22,
       links: { Paper: "https://arxiv.org/abs/2606.15912", Code: "https://github.com/Zzzz-166/Guided-OPD" },
     },
     {
@@ -131,7 +131,7 @@ const SITE = {
       venue: "NeurIPS",
       status: "Accepted",
       year: 2026,
-      citations: 20,
+      citations: 22,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -151,7 +151,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 57,
+      citations: 58,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
@@ -224,7 +224,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "2026-10-13",
+  lastUpdated: "2026-10-16",
 };
 
 /* ============================================================================
