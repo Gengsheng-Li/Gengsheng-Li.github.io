@@ -54,7 +54,7 @@ const SITE = {
     { date: "2026.09.20", html: 'Released <em>Distill What You Trust: Reliability-Aware Multi-Teacher On-Policy Distillation</em> on <a href="https://arxiv.org/abs/2609.23697">arXiv</a>.' },
     { date: "2026.09.12", html: 'Released <em>Data-Free On-Policy Distillation: How Far Can We Go Without External Data?</em> on <a href="https://arxiv.org/abs/2609.14193">arXiv</a>.' },
     { date: "2026.08.06", html: 'Released <em>DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models</em> on <a href="https://arxiv.org/abs/2608.06243">arXiv</a>.' },
-    { date: "2026.08", html: '<em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> is accepted at <strong>EMNLP 2026</strong>.' },
+    { date: "2026.08", html: '<em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> is accepted at <strong>EMNLP 2026 Main</strong>.' },
     { date: "2026.07.13", html: 'Released <em>EasyOPD: An Easy-to-use On-Policy Distillation Framework for Large Language Models</em> on <a href="https://arxiv.org/abs/2607.11012">arXiv</a>.' },
     { date: "2026.07", html: '<em>Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing</em> (SRPO) is accepted at <strong>COLM 2026</strong>.' },
     { date: "2026.06.14", html: 'Released <em>On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</em> on <a href="https://arxiv.org/abs/2606.15912">arXiv</a>.' },
@@ -119,6 +119,7 @@ const SITE = {
       authors: "Gengsheng Li*, Mao Zheng*, Mingyang Song*, Ruiqi Liu, Tianyu Yang, Jie Sun, Qiyong Zhong, Haiyun Guo, Junfeng Fang, Dan Zhang, Jinqiao Wang",
       note: "* Equal contribution",
       venue: "EMNLP",
+      venueLabel: "EMNLP 2026 Main",
       status: "Accepted",
       year: 2026,
       citations: 22,
@@ -172,7 +173,7 @@ const SITE = {
       status: "Accepted",
       year: 2025,
       citations: 3,
-      links: {},
+      links: { Paper: "https://ieeexplore.ieee.org/document/11037111" },
     },
   ],
 
@@ -356,18 +357,21 @@ function renderPublications() {
         ? `<a href="${escapeHtml(titleHref)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>`
         : escapeHtml(p.title);
       const cite = p.citations
-        ? `<span class="pub__cite">${ICONS.link}${p.citations} citation${p.citations > 1 ? "s" : ""}</span>`
+        ? `<span class="pub__cite">${ICONS.link}(${p.citations} citation${p.citations > 1 ? "s" : ""})</span>`
         : "";
       const links = linkKeys
         .map((k) => `<a class="pub__link" href="${escapeHtml(p.links[k])}" target="_blank" rel="noopener">${escapeHtml(k)} ↗</a>`)
         .join("");
       const note = p.note ? `<p class="pub__note">${escapeHtml(p.note)}</p>` : "";
       const status = p.status ? `<span class="pub__status ${statusClass(p.status)}">${escapeHtml(p.status)}</span>` : "";
+      const venue = p.venueLabel
+        ? `<span class="pub__venue">${escapeHtml(p.venueLabel)}</span>`
+        : `<span class="pub__venue">${escapeHtml(p.venue)}</span> · <span>${p.year}</span>`;
       return `<article class="pub reveal">
           <h3 class="pub__title">${title}</h3>
           <p class="pub__authors">${highlightAuthors(p.authors, s.meNames)}</p>
           ${note}
-          <p class="pub__meta"><span class="pub__venue">${escapeHtml(p.venue)}</span> · <span>${p.year}</span> ${status} ${cite}</p>
+          <p class="pub__meta">${venue} ${status} ${cite}</p>
           <div class="pub__links">${links}</div>
         </article>`;
     }).join("");
@@ -463,3 +467,4 @@ document.addEventListener("DOMContentLoaded", () => {
   initThemeToggle();
   initReveal();
 });
+
