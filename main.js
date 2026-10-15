@@ -79,7 +79,7 @@ const SITE = {
       authors: "Jie Sun*, Mao Zheng*, Mingyang Song*, Zeyuan Liu, Gengsheng Li, Houcheng Jiang, Yilin Cheng, Bichuan Feng, Yuchen Cai, Junfeng Fang, Xiang Wang",
       note: "* Equal contribution",
       venue: "arXiv preprint",
-      status: "Preprint",
+      status: "Under review at ICLR 2027",
       year: 2026,
       citations: 3,
       links: { Paper: "https://arxiv.org/abs/2609.23697" },
