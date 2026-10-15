@@ -21,7 +21,6 @@ const SITE = {
   links: {
     email: "ligengchengucd@163.com",
     scholar: "https://scholar.google.com/citations?user=uvBL9UMAAAAJ",
-    github: "https://github.com/Gengsheng-Li",  // 从 R-Diverse 仓库推断，请确认是否为你本人账号
     arxiv: "",                        // 例如 "https://arxiv.org/a/li_g_1"
     orcid: "",                        // 例如 "https://orcid.org/0000-0000-0000-0000"
     twitter: "",                      // 例如 "https://x.com/yourname"
