@@ -71,7 +71,7 @@ const SITE = {
   // 论文：authors 里出现的 meNames 会自动加粗。citations 填 0 则不显示徽章。
   // note 可选（如共同一作说明）；links 里的第一个会成为标题的链接。
   // status 可选：会显示为彩色徽章。常见写法：
-  //   "Preprint" / "Under review" / "Submitted to NeurIPS 2026" / "Accepted at ICLR 2027" / "Published"
+  //   "Preprint" / "Accepted" / "Published"
   // 含 accept/publish 显示绿色，含 review/submit 显示橙色，其余灰色。
   publications: [
     {
@@ -79,7 +79,7 @@ const SITE = {
       authors: "Jie Sun*, Mao Zheng*, Mingyang Song*, Zeyuan Liu, Gengsheng Li, Houcheng Jiang, Yilin Cheng, Bichuan Feng, Yuchen Cai, Junfeng Fang, Xiang Wang",
       note: "* Equal contribution",
       venue: "arXiv preprint",
-      status: "Under review at ICLR 2027",
+      status: "Preprint",
       year: 2026,
       citations: 3,
       links: { Paper: "https://arxiv.org/abs/2609.23697" },
