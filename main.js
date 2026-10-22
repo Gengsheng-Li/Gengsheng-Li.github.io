@@ -30,7 +30,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 142, hIndex: 6, i10Index: 4 },
+  scholarStats: { citations: 157, hIndex: 6, i10Index: 4 },
 
   bio:
     "My research centers on post-training " +
@@ -101,7 +101,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 6,
+      citations: 7,
       links: { Paper: "https://arxiv.org/abs/2608.06243", Code: "https://github.com/DBtxy/DASH-OPSD" },
     },
     {
@@ -121,7 +121,7 @@ const SITE = {
       venue: "EMNLP",
       status: "Accepted",
       year: 2026,
-      citations: 22,
+      citations: 25,
       links: { Paper: "https://arxiv.org/abs/2606.15912", Code: "https://github.com/Zzzz-166/Guided-OPD" },
     },
     {
@@ -131,7 +131,7 @@ const SITE = {
       venue: "NeurIPS",
       status: "Accepted",
       year: 2026,
-      citations: 22,
+      citations: 23,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -141,7 +141,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 17,
+      citations: 19,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
@@ -151,7 +151,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 58,
+      citations: 67,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
@@ -161,7 +161,7 @@ const SITE = {
       venue: "ICML",
       status: "Accepted",
       year: 2026,
-      citations: 9,
+      citations: 8,
       links: { Paper: "https://arxiv.org/abs/2602.13103", Code: "https://github.com/Gengsheng-Li/R-Diverse" },
     },
     {
@@ -224,7 +224,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "2026-10-16",
+  lastUpdated: "2026-10-22",
 };
 
 /* ============================================================================
