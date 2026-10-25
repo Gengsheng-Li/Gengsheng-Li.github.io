@@ -30,7 +30,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 157, hIndex: 6, i10Index: 4 },
+  scholarStats: { citations: 167, hIndex: 6, i10Index: 4 },
 
   bio:
     "My research centers on post-training " +
@@ -121,7 +121,7 @@ const SITE = {
       venue: "EMNLP",
       status: "Accepted",
       year: 2026,
-      citations: 25,
+      citations: 27,
       links: { Paper: "https://arxiv.org/abs/2606.15912", Code: "https://github.com/Zzzz-166/Guided-OPD" },
     },
     {
@@ -131,7 +131,7 @@ const SITE = {
       venue: "NeurIPS",
       status: "Accepted",
       year: 2026,
-      citations: 23,
+      citations: 26,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -151,7 +151,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 67,
+      citations: 71,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
@@ -161,7 +161,7 @@ const SITE = {
       venue: "ICML",
       status: "Accepted",
       year: 2026,
-      citations: 8,
+      citations: 9,
       links: { Paper: "https://arxiv.org/abs/2602.13103", Code: "https://github.com/Gengsheng-Li/R-Diverse" },
     },
     {
@@ -224,7 +224,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "2026-10-22",
+  lastUpdated: "2026-10-25",
 };
 
 /* ============================================================================
@@ -466,4 +466,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initThemeToggle();
   initReveal();
 });
+
 
