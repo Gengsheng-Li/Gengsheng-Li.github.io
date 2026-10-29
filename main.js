@@ -30,7 +30,7 @@ const SITE = {
 
   // Google Scholar 指标（会变化，记得偶尔更新；不想显示就把 showScholarStats 设为 false）
   showScholarStats: true,
-  scholarStats: { citations: 167, hIndex: 6, i10Index: 4 },
+  scholarStats: { citations: 172, hIndex: 6, i10Index: 4 },
 
   bio:
     "My research centers on post-training " +
@@ -131,7 +131,7 @@ const SITE = {
       venue: "NeurIPS",
       status: "Accepted",
       year: 2026,
-      citations: 26,
+      citations: 27,
       links: { Paper: "https://arxiv.org/abs/2605.21924" },
     },
     {
@@ -141,7 +141,7 @@ const SITE = {
       venue: "arXiv preprint",
       status: "Preprint",
       year: 2026,
-      citations: 19,
+      citations: 20,
       links: { Paper: "https://arxiv.org/abs/2605.07396", Code: "https://github.com/Peregrine123/ROPD_official" },
     },
     {
@@ -151,7 +151,7 @@ const SITE = {
       venue: "COLM",
       status: "Accepted",
       year: 2026,
-      citations: 71,
+      citations: 74,
       links: { Paper: "https://arxiv.org/abs/2604.02288" },
     },
     {
@@ -224,7 +224,7 @@ const SITE = {
     { year: "2024", text: "Outstanding Final Year Project, UCD" },
   ],
 
-  lastUpdated: "2026-10-25",
+  lastUpdated: "2026-10-29",
 };
 
 /* ============================================================================
