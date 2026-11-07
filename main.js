@@ -216,6 +216,7 @@ const SITE = {
   ],
 
   honors: [
+    { year: "2026", text: "National Scholarship for Graduate Students, CASIA" },
     { year: "2026", text: "Merit Student, CASIA" },
     { year: "2025", text: "Merit Student, UCAS" },
     { year: "2024", text: "Beijing Municipality Outstanding Graduate" },
